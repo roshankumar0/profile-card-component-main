@@ -34,6 +34,8 @@ body{
     border-radius: 20px 20px;
     text-align: center;
     position: relative;
+    border: 2px solid red;
+    
     
     
 }
@@ -97,7 +99,7 @@ h3 span{
     right: 0;
     transform: translate(30%, 60%);
 }
-@media(max-width:768px){
+@media(max-width:992){
     .circle .c1{
         top: 0;
         left: 0;
@@ -110,7 +112,7 @@ h3 span{
         transform: translate(70%, 50%);
     }
     .card{
-        max-width: 480px;
+        min-width: 768px;
         
     }
 }
